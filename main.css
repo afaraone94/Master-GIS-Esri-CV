@@ -1,0 +1,45 @@
+html {
+    padding: 10 px;
+    margin: 0;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-wrapper {
+    padding: 15px;
+}
+
+
+.main-wrapper {
+    background-color: darkgray
+}
+
+.info-personal {
+    background-color: rgb(240, 180, 14);
+    border: 5px solid rgb(224, 224, 224);
+    width: 1189px;
+    padding: 10px;
+}
+
+.info-personal i {
+    padding: 10px;
+    transform: scale(1.5);
+  }
+  .info-personal i:hover {
+    transform: scale(2)
+  }
+
+.info-photo {
+    float: right;
+    position: absolute;
+    bottom: 1070px;
+    right: 1100px;
+}
+
+.info-experience, .info-courses, .info-habilities, .info-studies {
+    width: 1028px;
+}
