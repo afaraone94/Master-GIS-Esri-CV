@@ -28,18 +28,30 @@ body {
 .info-personal i {
     padding: 10px;
     transform: scale(1.5);
-  }
-  .info-personal i:hover {
+}
+
+.info-personal i:hover {
     transform: scale(2)
-  }
+}
 
 .info-photo {
     float: right;
     position: absolute;
-    bottom: 1070px;
-    right: 1100px;
+    bottom: 1056px;
+    right: 1250px;
 }
 
-.info-experience, .info-courses, .info-habilities, .info-studies {
+.info-experience,
+.info-courses,
+.info-habilities,
+.info-studies {
     width: 1028px;
+}
+
+.mas {
+    display: inline;
+}
+
+.close {
+    display: none;
 }
